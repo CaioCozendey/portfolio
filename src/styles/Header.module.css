@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    height: 5rem;
+    margin: auto;
+}
+
+.container ul {
+    display: flex;
+    margin: 0 0 0 auto;
+}
+
+.container a{
+    text-decoration: none;
+}
+
+
+.container li{
+    list-style: none;
+    margin: 0 2rem;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 600;
+}
+
+.container h1{
+    color: var(--purple);
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 600;
+}
+
+.homeBtn{
+    color: var(--purple);
+}
+
+.otherBtn{
+    color: var(--white);
+}
+
+.background{
+    width: 100%;
+    background-color: var(--background);
+}

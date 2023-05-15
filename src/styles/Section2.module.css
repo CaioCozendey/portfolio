@@ -1,0 +1,143 @@
+.background {
+    background-color: var(--background2);
+    margin: 12rem 0 0 0;
+    width: 100%;
+    height: 70rem;
+}
+
+.container {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 5rem 0 0 0;
+    color: var(--white);
+}
+
+.container h1 {
+    color: var(--purple);
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.devIcons {
+    margin: 4rem 0 0 0;
+    text-align: center;
+}
+
+.devIcons img {
+    width: 7rem;
+    margin: 1rem 1rem 0 1rem;
+}
+
+.devIcons i {
+    font-size: 7rem;
+    margin: 1rem 1rem 0 1rem;
+}
+
+.container2 {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 5rem 0 0 0;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+}
+
+.container2 h1 {
+    color: var(--purple);
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.container2 h2 {
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 27px;
+    margin: 2rem 0 0 0;
+}
+
+.container2 input:nth-child(1) {
+    width: 30rem;
+    height: 3rem;
+}
+
+.container2 input:nth-child(3) {
+    width: 30rem;
+    height: 3rem;
+}
+
+.container2 input:nth-child(5) {
+    width: 30rem;
+    height: 8rem;
+}
+
+.container2 input {
+    margin: 1rem 0 0 0;
+    border-radius: 0.75rem;
+    padding: 0 0 0 1rem;
+    background: var(--gray);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 24px;
+    border: none;
+    color: var(--white);
+}
+
+.container2 button {
+    width: 160px;
+    height: 48px;
+    border-radius: 8px;
+    margin: 1rem 2rem 0 0;
+    color: var(--white);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    background-color: var(--purple);
+    border: 0;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.container2 button:hover{
+    opacity: 0.7;
+}
+
+.container3 {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 5rem 0 0 0;
+    color: var(--white);
+    justify-content: center;
+    display: flex;
+}
+
+.container3 a i{
+    width: 3rem;
+    color: var(--white);
+    font-size: 4rem;
+    transition: 0.4s;
+}
+
+.container3 a i:hover{
+    opacity: 0.65;
+}
+
+.container3 a{
+    text-decoration: none;
+    margin: 8rem 3rem 0 0;
+}
+
+.container3 p{
+    margin: 2rem 0 0 30rem; 
+    font-size: 1.5rem;
+    color: var(--white);
+    justify-content: center;
+    transition: 0.4s;
+}
+
+.container3 p:hover{
+    opacity: 0.65;
+}
