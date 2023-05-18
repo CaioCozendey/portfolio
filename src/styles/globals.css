@@ -7,13 +7,14 @@
   --purple: #7562E0;
   --white: #ffffff;
   --gray: rgba(245, 245, 245, 0.11);
+
+  font-family: 'Poppins', sans-serif;
 }
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Poppins', sans-serif;
 }
 
 body{
